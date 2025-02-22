@@ -1,5 +1,28 @@
 //https://developer.hashicorp.com/terraform/tutorials
 
+This Terraform configuration sets up a basic cloud monitoring infrastructure with:
+Alert Policies:
+CPU utilization (alerts at 80%)
+Memory utilization (alerts at 80%)
+Error rate (alerts if more than 10 errors in 5 minutes)
+
+Uptime Monitoring:
+Regular HTTP checks
+SSL validation
+5-minute check intervals
+
+
+Dashboard:
+CPU usage graph
+Memory usage graph
+Error count graph
+
+
+Notification Channel:
+Email notifications for alerts
+
+
+
 # Configure the required providers
 terraform {
   required_providers {
