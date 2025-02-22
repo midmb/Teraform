@@ -21,6 +21,22 @@ Error count graph
 Notification Channel:
 Email notifications for alerts
 
+Create a terraform.tfvars file:
+project_id = "your-project-id"
+region     = "your-region"
+app_name   = "your-app-name"
+
+Update the following in the configuration:
+Email address in the notification channel
+Host URL in the uptime check
+Any threshold values to match your needs
+
+Inititalize and apply
+terraform init
+terraform plan
+terraform apply
+
+
 
 
 # Configure the required providers
